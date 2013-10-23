@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A7BEA518179976004C3BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEA418179976004C3BAC /* Foundation.framework */; };
+		C2A7BEA718179976004C3BAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEA618179976004C3BAC /* CoreGraphics.framework */; };
+		C2A7BEA918179976004C3BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEA818179976004C3BAC /* UIKit.framework */; };
+		C2A7BEAF18179976004C3BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A7BEAD18179976004C3BAC /* InfoPlist.strings */; };
+		C2A7BEB118179976004C3BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7BEB018179976004C3BAC /* main.m */; };
+		C2A7BEB518179976004C3BAC /* RdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7BEB418179976004C3BAC /* RdAppDelegate.m */; };
+		C2A7BEB818179976004C3BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A7BEB618179976004C3BAC /* Main.storyboard */; };
+		C2A7BEBB18179976004C3BAC /* RdFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7BEBA18179976004C3BAC /* RdFirstViewController.m */; };
+		C2A7BEBE18179976004C3BAC /* RdSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7BEBD18179976004C3BAC /* RdSecondViewController.m */; };
+		C2A7BEC018179976004C3BAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A7BEBF18179976004C3BAC /* Images.xcassets */; };
+		C2A7BEC718179977004C3BAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEC618179977004C3BAC /* XCTest.framework */; };
+		C2A7BEC818179977004C3BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEA418179976004C3BAC /* Foundation.framework */; };
+		C2A7BEC918179977004C3BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A7BEA818179976004C3BAC /* UIKit.framework */; };
+		C2A7BED118179977004C3BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A7BECF18179977004C3BAC /* InfoPlist.strings */; };
+		C2A7BED318179977004C3BAC /* RadenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7BED218179977004C3BAC /* RadenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A7BECA18179977004C3BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7BE9918179976004C3BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7BEA018179976004C3BAC;
+			remoteInfo = Raden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2A7BEA118179976004C3BAC /* Raden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7BEA418179976004C3BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A7BEA618179976004C3BAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2A7BEA818179976004C3BAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2A7BEAC18179976004C3BAC /* Raden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raden-Info.plist"; sourceTree = "<group>"; };
+		C2A7BEAE18179976004C3BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A7BEB018179976004C3BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A7BEB218179976004C3BAC /* Raden-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Raden-Prefix.pch"; sourceTree = "<group>"; };
+		C2A7BEB318179976004C3BAC /* RdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RdAppDelegate.h; sourceTree = "<group>"; };
+		C2A7BEB418179976004C3BAC /* RdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RdAppDelegate.m; sourceTree = "<group>"; };
+		C2A7BEB718179976004C3BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2A7BEB918179976004C3BAC /* RdFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RdFirstViewController.h; sourceTree = "<group>"; };
+		C2A7BEBA18179976004C3BAC /* RdFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RdFirstViewController.m; sourceTree = "<group>"; };
+		C2A7BEBC18179976004C3BAC /* RdSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RdSecondViewController.h; sourceTree = "<group>"; };
+		C2A7BEBD18179976004C3BAC /* RdSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RdSecondViewController.m; sourceTree = "<group>"; };
+		C2A7BEBF18179976004C3BAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2A7BEC518179977004C3BAC /* RadenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7BEC618179977004C3BAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2A7BECE18179977004C3BAC /* RadenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadenTests-Info.plist"; sourceTree = "<group>"; };
+		C2A7BED018179977004C3BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A7BED218179977004C3BAC /* RadenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A7BE9E18179976004C3BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BEA718179976004C3BAC /* CoreGraphics.framework in Frameworks */,
+				C2A7BEA918179976004C3BAC /* UIKit.framework in Frameworks */,
+				C2A7BEA518179976004C3BAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7BEC218179977004C3BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BEC718179977004C3BAC /* XCTest.framework in Frameworks */,
+				C2A7BEC918179977004C3BAC /* UIKit.framework in Frameworks */,
+				C2A7BEC818179977004C3BAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A7BE9818179976004C3BAC = {
+			isa = PBXGroup;
+			children = (
+				C2A7BEAA18179976004C3BAC /* Raden */,
+				C2A7BECC18179977004C3BAC /* RadenTests */,
+				C2A7BEA318179976004C3BAC /* Frameworks */,
+				C2A7BEA218179976004C3BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A7BEA218179976004C3BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BEA118179976004C3BAC /* Raden.app */,
+				C2A7BEC518179977004C3BAC /* RadenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A7BEA318179976004C3BAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BEA418179976004C3BAC /* Foundation.framework */,
+				C2A7BEA618179976004C3BAC /* CoreGraphics.framework */,
+				C2A7BEA818179976004C3BAC /* UIKit.framework */,
+				C2A7BEC618179977004C3BAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A7BEAA18179976004C3BAC /* Raden */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BEB318179976004C3BAC /* RdAppDelegate.h */,
+				C2A7BEB418179976004C3BAC /* RdAppDelegate.m */,
+				C2A7BEB618179976004C3BAC /* Main.storyboard */,
+				C2A7BEB918179976004C3BAC /* RdFirstViewController.h */,
+				C2A7BEBA18179976004C3BAC /* RdFirstViewController.m */,
+				C2A7BEBC18179976004C3BAC /* RdSecondViewController.h */,
+				C2A7BEBD18179976004C3BAC /* RdSecondViewController.m */,
+				C2A7BEBF18179976004C3BAC /* Images.xcassets */,
+				C2A7BEAB18179976004C3BAC /* Supporting Files */,
+			);
+			path = Raden;
+			sourceTree = "<group>";
+		};
+		C2A7BEAB18179976004C3BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BEAC18179976004C3BAC /* Raden-Info.plist */,
+				C2A7BEAD18179976004C3BAC /* InfoPlist.strings */,
+				C2A7BEB018179976004C3BAC /* main.m */,
+				C2A7BEB218179976004C3BAC /* Raden-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2A7BECC18179977004C3BAC /* RadenTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BED218179977004C3BAC /* RadenTests.m */,
+				C2A7BECD18179977004C3BAC /* Supporting Files */,
+			);
+			path = RadenTests;
+			sourceTree = "<group>";
+		};
+		C2A7BECD18179977004C3BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7BECE18179977004C3BAC /* RadenTests-Info.plist */,
+				C2A7BECF18179977004C3BAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A7BEA018179976004C3BAC /* Raden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7BED618179977004C3BAC /* Build configuration list for PBXNativeTarget "Raden" */;
+			buildPhases = (
+				C2A7BE9D18179976004C3BAC /* Sources */,
+				C2A7BE9E18179976004C3BAC /* Frameworks */,
+				C2A7BE9F18179976004C3BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raden;
+			productName = Raden;
+			productReference = C2A7BEA118179976004C3BAC /* Raden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A7BEC418179977004C3BAC /* RadenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7BED918179977004C3BAC /* Build configuration list for PBXNativeTarget "RadenTests" */;
+			buildPhases = (
+				C2A7BEC118179977004C3BAC /* Sources */,
+				C2A7BEC218179977004C3BAC /* Frameworks */,
+				C2A7BEC318179977004C3BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7BECB18179977004C3BAC /* PBXTargetDependency */,
+			);
+			name = RadenTests;
+			productName = RadenTests;
+			productReference = C2A7BEC518179977004C3BAC /* RadenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A7BE9918179976004C3BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rd;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tonic;
+				TargetAttributes = {
+					C2A7BEC418179977004C3BAC = {
+						TestTargetID = C2A7BEA018179976004C3BAC;
+					};
+				};
+			};
+			buildConfigurationList = C2A7BE9C18179976004C3BAC /* Build configuration list for PBXProject "Raden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2A7BE9818179976004C3BAC;
+			productRefGroup = C2A7BEA218179976004C3BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A7BEA018179976004C3BAC /* Raden */,
+				C2A7BEC418179977004C3BAC /* RadenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A7BE9F18179976004C3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BEC018179976004C3BAC /* Images.xcassets in Resources */,
+				C2A7BEAF18179976004C3BAC /* InfoPlist.strings in Resources */,
+				C2A7BEB818179976004C3BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7BEC318179977004C3BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BED118179977004C3BAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A7BE9D18179976004C3BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BEBE18179976004C3BAC /* RdSecondViewController.m in Sources */,
+				C2A7BEB518179976004C3BAC /* RdAppDelegate.m in Sources */,
+				C2A7BEBB18179976004C3BAC /* RdFirstViewController.m in Sources */,
+				C2A7BEB118179976004C3BAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7BEC118179977004C3BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7BED318179977004C3BAC /* RadenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A7BECB18179977004C3BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A7BEA018179976004C3BAC /* Raden */;
+			targetProxy = C2A7BECA18179977004C3BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2A7BEAD18179976004C3BAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A7BEAE18179976004C3BAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2A7BEB618179976004C3BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A7BEB718179976004C3BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2A7BECF18179977004C3BAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A7BED018179977004C3BAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A7BED418179977004C3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2A7BED518179977004C3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A7BED718179977004C3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raden/Raden-Prefix.pch";
+				INFOPLIST_FILE = "Raden/Raden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2A7BED818179977004C3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raden/Raden-Prefix.pch";
+				INFOPLIST_FILE = "Raden/Raden-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2A7BEDA18179977004C3BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raden.app/Raden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raden/Raden-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RadenTests/RadenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2A7BEDB18179977004C3BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Raden.app/Raden";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raden/Raden-Prefix.pch";
+				INFOPLIST_FILE = "RadenTests/RadenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A7BE9C18179976004C3BAC /* Build configuration list for PBXProject "Raden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7BED418179977004C3BAC /* Debug */,
+				C2A7BED518179977004C3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7BED618179977004C3BAC /* Build configuration list for PBXNativeTarget "Raden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7BED718179977004C3BAC /* Debug */,
+				C2A7BED818179977004C3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2A7BED918179977004C3BAC /* Build configuration list for PBXNativeTarget "RadenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7BEDA18179977004C3BAC /* Debug */,
+				C2A7BEDB18179977004C3BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A7BE9918179976004C3BAC /* Project object */;
+}
