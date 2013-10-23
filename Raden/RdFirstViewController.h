@@ -10,4 +10,8 @@
 
 @interface RdFirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)snapshotClicked:(id)sender;
+
 @end

@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)snapshotClicked:(id)sender {
+    UIImage *image = [self imageFromView:self.view];
+    self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.imageView.image = image;
+    self.imageView.tag = 100;
+}
+
+- (UIImage *)imageFromView: (UIView *)theView {
+    UIGraphicsBeginImageContext(theView.frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [theView.layer renderInContext:context];
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
+}
 @end
