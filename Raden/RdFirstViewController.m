@@ -30,7 +30,6 @@
     UIImage *image = [self imageFromView:self.view];
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;
     self.imageView.image = image;
-    self.imageView.tag = 100;
 }
 
 - (UIImage *)imageFromView: (UIView *)theView {
